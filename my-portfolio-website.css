@@ -1,0 +1,428 @@
+body{
+    box-sizing: border-box;
+    background: #05154fff;
+    margin: 0px;
+    position: relative;
+}
+nav{
+    width: 90%;
+    /* background: rgb(177, 132, 132); */
+    margin: 0 auto;
+    margin-top: 10px;
+}
+nav .logo{
+    width: 35px;
+    height: 10px;
+    cursor: pointer;
+}
+.nav-menu{
+    display: none;
+}
+nav #menu-button{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    float: right;
+}
+h1{
+    text-align: center;
+    font-family: 'Ramabhadra', sans-serif;
+    text-align: center;
+    color:#fff;
+    font-weight: 400;
+}
+.sub-header{
+    text-align: center;
+    font-size: 7.5px;
+    color: #c98342ff;
+    font-family: 'Ramabhadra', sans-serif;
+    font-weight: 100;
+    margin-top: -38px;
+    font-weight: 100;
+}
+.social-logo{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+}
+#github-logo{
+    /* margin-top: 100px; */
+    margin: 0px 0 0 10px;
+}
+#facebook-logo{
+    margin: 20px 0 0 10px;
+}
+#linkedin-logo{
+    margin: 40px 0 0 10px;
+}
+#twitter-logo{
+    margin: 60px 0 0 10px;
+}
+#gmail-logo{
+    margin: 80px 0 0 10px;
+}
+#smart-mockup-image{
+    width: 120px;
+    height: 100px;
+    /* position: absolute; */
+    margin: 0 0 0 25%;
+    /* margin: 30px 0 0 70px; */
+}
+.alli-intro{
+    width: 70%;
+    margin: 0 auto;
+    color:#fff;
+    text-align: justify;
+    font-family: 'Ramabhadra', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+.more-logo{
+    height: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 45px;
+    position: absolute;
+    margin-left: 50%;
+    transform:scale(1.6,1);
+}
+.about{
+    /* position: absolute; */
+    width: 100%;
+    height: 550px;
+    background: url("pankaj.png");
+    background-repeat: repeat-y;
+    margin-top: 70px;
+    font-family: 'Ramabhadra', sans-serif;
+    text-align: center;
+    position: relative;
+}
+.about .about-head{
+    color: #05154fff;
+    font-weight: 600;
+}
+.about-text{
+    /* background: #c98342ff; */
+    width: 80%;
+    margin: 0 auto;
+    font-weight: 100;
+    font-size: 10px;
+    text-align: justify;
+}
+.about .alli-image{
+    width: 80px;
+    height: 80px;
+}
+.about-text .more-logo2{
+    height: 10px;
+    color: #05154fff;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    position: absolute;
+    transform:scale(1.6,1);
+    margin-left: 38%;
+}
+.works{
+    /* position: relative; */
+    width: 100%;
+    height: 800px;
+    background: url("pankaj.png");
+    background-repeat: repeat-y;
+    margin-top: -17px;
+    font-family: 'Ramabhadra', sans-serif;
+    text-align: center;
+    color: #05154fff;
+}
+.works #works-head{
+    font-weight: 600;
+}
+.works .work1{
+    width: 90%;
+    height: 250px;
+    float: middle;
+}
+.works .previous{
+    position: absolute;
+    margin: 120px 0 0 -280px;
+    color: #fff;
+}
+.works .next{
+    position: absolute;
+    margin: 120px 0 0 -15px;
+    color: #fff;
+}
+.get-in-touch{
+    color: #000;
+    text-align: left;
+    width: 90%;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.works .in-touch{
+    color: #05154fff;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 0px;
+    font-size: 18px;
+}
+form{
+    display: none;
+    margin-top: 20px;
+}
+input{
+    width: 90%;
+    height: 20px;
+    font-size: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+    border-radius: 2px;
+    /* border-bottom: 1px solid #000; */
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background: none;
+    border-bottom-color: #ccc;
+}
+textarea{
+    width: 90%;
+    height: 100px;
+    background: none;
+    font-size: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+#submit{
+    width: 70px;
+    background: #788dd8;
+    color: #fff;
+    border: none;
+    border-radius:4px;
+    float: right;
+    margin: 0 24px 0 0;
+    cursor: pointer;
+}
+#submit:hover{
+    background: #102777;
+}
+footer{
+    width: 100%;
+    height: 10px;
+    /* padding-top: 0px; */
+    /* margin-top: 40px; */
+    background: #05154fff;
+    color: #fff;
+    font-weight: 100;
+    font-size:  10px;
+    position: relative;
+}
+.copyright{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 0px;
+}
+
+
+@media only screen and (min-width: 678px){
+    body{
+        /* background:  red; */
+    }
+    .alli-intro{
+        width: 70%;
+        margin: 0 auto;
+        color:#fff;
+        text-align: justify;
+        font-family: 'Ramabhadra', sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    #smart-mockup-image{
+        width: 220px;
+        height: 180px;
+        /* position: absolute; */
+        margin: 2% 0 0 34%;
+        /* margin: 30px 0 0 70px; */
+    }
+    .about{
+        /* position: absolute; */
+        width: 100%;
+        height: 550px;
+        background: url("pankaj.png");
+        background-size: cover;
+        background-repeat: repeat-y;
+        background-repeat: repeat-x;
+        margin-top: 70px;
+        font-family: 'Ramabhadra', sans-serif;
+        text-align: center;
+        position: relative;
+    }
+    .about .alli-image{
+        width: 100px;
+        height: 100px;
+    }
+    .about-text{
+        width: 80%;
+        /* margin: 0 auto; */
+        font-weight: 100;
+        font-size: 14px;
+        text-align: left;
+    }
+    .about-text .more-logo2{
+        margin-left: 39%;
+    }
+    .works{
+        /* position: relative; */
+        width: 100%;
+        height: 800px;
+        background: url("pankaj.png");
+        background-size: cover;
+        background-repeat: repeat-y;
+        background-repeat: repeat-x;
+        margin-top: -17px;
+        font-family: 'Ramabhadra', sans-serif;
+        text-align: center;
+        color: #05154fff;
+    }
+    .works .work1{
+        /* width: 90%; */
+        /* height: 250px; */
+        /* float: middle; */
+        display: none;
+    }
+    .works .previous{
+        display: none;
+    }
+    .works .next{
+        display: none;
+    }
+    .portfolio{
+        width: 90%;
+        height: 200px;
+        margin: 0 auto;
+        /* position: relative; */
+    }
+    .portfolio1{
+        background: url("Group27.2.png");
+        background-size: cover;
+        width: 33%;
+        height: 150px;
+        float: left;
+    }
+    .portfolio2{
+        background: url("smartmockups_jllickuq.jpg");
+        background-size: cover;
+        width: 33%;
+        height: 150px;
+        float: left;
+        margin-left:3px;
+    }
+    .portfolio3{
+        background: url("immigration-page.png");
+        background-size: cover;
+        width: 33%;
+        height: 150px;
+        float: right;
+    }
+    .portfolio4{
+        background: url("mobile-group.png");
+        background-size: cover;
+        width: 33%;
+        height: 150px;
+        float: left;
+        margin-top:3px;
+    }
+    .portfolio5{
+        background: url("volks-image.png");
+        background-size: cover;
+        width: 33%;
+        height: 150px;
+        float: left;
+        margin-left:3px;
+        margin-top:3px;
+    }
+    .portfolio6{
+        background: url("immigration-page.png");
+        background-size: cover;
+        width: 33%;
+        height: 150px;
+        float: right;
+        margin-top:3px;
+    }
+    .view-more{
+        margin-top: 0px;
+    }
+    nav #menu-button{
+        display: none;
+    }
+    .nav-menu{
+        display: block;
+        float: right;
+        font-size: 9px;
+    }
+    .nav-menu li{
+        float: left;
+        list-style: none;
+        margin-right: 10px;
+    }
+    .nav-menu li a{
+        float: right;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Ramabhadra', sans-serif;
+    }
+    form{
+        width: 50%;
+    }
+    footer{
+        width: 100%;
+        height: 0px;
+        font-weight: 100;
+        font-size:  12px;
+        font-family: 'Ramabhadra', sans-serif;
+    }
+    .copyright{
+        position: absolute;
+        margin-left: 43%;
+        margin-top: 0px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .social-logo{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+    }
+    #github-logo{
+        /* margin-top: 100px; */
+        margin: 0px 0 0 10px;
+    }
+    #facebook-logo{
+        margin: 30px 0 0 10px;
+    }
+    #linkedin-logo{
+        margin: 60px 0 0 10px;
+    }
+    #twitter-logo{
+        margin: 90px 0 0 10px;
+    }
+    #gmail-logo{
+        margin: 120px 0 0 10px;
+    }
+    .nav-menu{
+        display: block;
+        float: right;
+        font-size: 9px;
+    }
+    .nav-menu li{
+        margin-right: 15px;
+    }
+    .nav-menu li a{
+        float: right;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Ramabhadra', sans-serif;
+    }
+}

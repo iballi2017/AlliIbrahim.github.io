@@ -1,0 +1,16 @@
+body{
+    background: red;
+}
+
+#myslide1{
+    background: rgb(0, 140, 255);
+}
+#myslide2{
+    background: rgb(230, 0, 127);
+}
+#myslide3{
+    background: rgb(91, 18, 133);
+}
+#myslide4{
+    background: rgb(157, 255, 0);
+}
